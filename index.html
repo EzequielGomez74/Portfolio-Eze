@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="shortcut icon" href="./img/ezee1.jpg">
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+			integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+			/>
+			<link rel="stylesheet" href="estilo.css" />
+		<title>Ezequiel Gomez</title>
+	</head>
+	<body>
+		<!-- MENU ENCABEZADO -->
+		<div class="contenedor-header">
+			<header>
+				<div class="logo">
+					<a href="#">EZEQUIEL </a>
+				</div>
+				<nav id="nav">
+					<ul>
+						<li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+						<li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+						<li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+						<li>
+							<a href="#curriculum" onclick="seleccionar()">CV</a>
+						</li>
+						<li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+						
+					</ul>
+				</nav>
+				<div class="nav-responsive" onclick="mostrarOcultarMenu()">
+					<i class="fa-solid fa-bars"></i>
+				</div>
+			</header>
+		</div>
+
+		<!-- SECCION INICIO -->
+		<section id="inicio" class="inicio">
+			<div class="contenido-banner">
+				<div class="contenedor-img">
+					<img src="img/ezee1.jpg" alt="" />
+				</div>
+				<h1>EZEQUIEL GOMEZ</h1>
+				<h2>FullStack Developer Front-end</h2>
+				<div class="redes">
+					<a href="https://www.linkedin.com/in/eze-gomez/"
+						><i class="fa-brands fa-linkedin-in"></i
+					></a>
+					<a href="https://github.com/EzequielGomez74"
+						><i class="fa-brands fa-github"></i
+					></a>
+					
+					<!-- <a href="#"><i class="fa-solid fa-rss"></i></a> -->
+				</div>
+			</div>
+		</section>
+
+		<!-- SECCION SOBRE MI -->
+		<section id="sobremi" class="sobremi">
+			<div class="contenido-seccion">
+				<h2>Sobre Mí</h2>
+				<p>
+					<span>Hola a todos, soy Ezequiel Gomez.</span> Hola, soy Ezequiel Gomez. Desarrollador Full Stack, además soy ex jugador profesional de Handball. Capitán en todos mis equipos, campeón en diferentes competencias, además de haber jugado en Chile y Brasil. El deporte es para mi algo fundamental, ya que me hizo aprender mucho sobre valores, trabajo en grupo, liderazgo. Y siempre llevo conmigo todas esas enseñanzas.
+
+					Actualmente cuento con mas de 800 horas de estudio y practica en desarrollo Web.
+					
+					Ingrese al mundo de la programación de la mano de Henry, nunca me había despertado intriga este mundo hasta que por conocidos, amigos empecé a ver un poco de código, y lo que realmente se podía hacer. Claramente al ver código por primera vez y sin estudios previos me parecía que todo lo que estaba viendo era imposible, que nunca iba a poder hacerlo, que se necesitaban muchos estudios para eso. Y cuando realmente decidí interiorizarme un poco, fue cuando apareció HENRY por primera vez y dije, "ok, si no lo intento nunca voy a saber si puedo". 
+				</br>
+			    </br>
+					
+					Llego mi primer Proyecto Individual, el cual espere mucho, pero sentí que debía repasar mas conceptos y no mentirme a mi mismo, aunque el proyecto había quedado increíble, decidí hacer un segundo. Y finalmente lo hice, lo aprobé y pase al ultimo paso que fue el Proyecto Final. Proyecto que siempre supe que debía ser superador, y 100% profesional, y eso mismo hice e hicimos con mis compañeros.
+				</br>
+			    </br>
+					 Al día de hoy mi interés principal es poder participar de proyectos, ideas que me hagan cruzar ese limite que uno se impone, para seguir superándome, para seguir aprendiendo, y para ser cada día mejor, como persona y como programador.
+					
+					Lo monetario no me mueve el piso, me motivan las buenas ideas, las buenas propuestas, los grandes desafíos, la innovación, la creatividad, y estar en un lugar que me permita ponerme la camiseta y desde mi lugar colaborar para que ese espacio sea mucho mejor que ayer.
+				</p>
+
+				<div class="fila">
+					<!-- datos personales -->
+					<div class="col">
+						<h3>MIS DATOS</h3>
+						<ul>
+							
+							<li>
+								<strong>Teléfono</strong>
+								+54 3413073600
+							<li>
+								<strong>Email</strong>
+								ezequiel.canob@gmail.com
+							</li>
+							<!-- <li>
+								<strong>Website</strong>
+								www.example.com
+							</li> -->
+							<li>
+								<strong>Ubicacion</strong>
+								Rosario , Santa Fe, Argentina
+							</li>
+							
+						</ul>
+					</div>
+
+					<!-- intereses -->
+					<div class="col">
+						<h3>Intereses</h3>
+						<div class="contenedor-intereses">
+							<div class="interes">
+								<i class="fa-solid fa-gamepad"></i>
+								<span>JUEGOS</span>
+							</div>
+							<div class="interes">
+								<i class="fa-solid fa-headphones"></i>
+								<span>MUSICA</span>
+							</div>
+							<div class="interes">
+								<i class="fa-solid fa-plane"></i>
+								<span>VIAJES</span>
+							</div>
+							<!-- <div class="interes">
+								<i class="fa-brands fa-apple"></i>
+								<span>MAC OS</span>
+							</div> -->
+							<div class="interes">
+								<i class="fa-solid fa-person-hiking"></i>
+								<span>DEPORTE</span>
+							</div>
+							<div class="interes">
+								<i class="fa-solid fa-pen-nib"></i>
+								<span>ESCRIBIR</span>
+							</div>
+							
+							<div class="interes">
+								<i class="fa-solid fa-camera"></i>
+								<span>FOTOGRAFIA</span>
+							</div>
+							<div class="interes">
+								<i class="fa-regular fa-image"></i>
+								<span>DISEÑO</span>
+							</div>
+
+							<div class="interes">
+								<i class="fa-solid fa-file-word"></i>
+								<span>FRONT END</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</section>
+
+		
+		<section class="skills" id="skills">
+			<div class="contenido-seccion">
+				<h2>Skills</h2>
+				<div class="fila">
+					<!-- Technical Skill -->
+					<div class="col">
+						<h3>Tech Skills</h3>
+						<div class="skill">
+							<span>Javascript</span>
+							<div class="barra-skill">
+								<div class="progreso">
+									<span>95%</span>
+								</div>
+							</div>
+						</div>
+						<div class="skill">
+							<span>HTML & CSS</span>
+							<div class="barra-skill">
+								<div class="progreso">
+									<span>100%</span>
+								</div>
+							</div>
+						</div>
+						<div class="skill">
+							<span>Photoshop</span>
+							<div class="barra-skill">
+								<div class="progreso">
+									<span>95%</span>
+								</div>
+							</div>
+						</div>
+						<div class="skill">
+							<span>React</span>
+							<div class="barra-skill">
+								<div class="progreso">
+									<span>90%</span>
+								</div>
+							</div>
+						</div>
+						<div class="skill">
+							<span>Tailwind</span>
+							<div class="barra-skill">
+								<div class="progreso">
+									<span>85%</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Professional Skills -->
+					<div class="col">
+						<h3>Soft Skills</h3>
+						<div class="skill">
+							<span>Comunicación</span>
+							<div class="barra-skill">
+								<div class="progreso">
+									<span>100%</span>
+								</div>
+							</div>
+						</div>
+						<div class="skill">
+							<span>Trabajo en Equipo</span>
+							<div class="barra-skill">
+								<div class="progreso">
+									<span>95%</span>
+								</div>
+							</div>
+						</div>
+						<div class="skill">
+							<span>Liderazgo</span>
+							<div class="barra-skill">
+								<div class="progreso">
+									<span>100%</span>
+								</div>
+							</div>
+						</div>
+						<div class="skill">
+							<span>Dedicación</span>
+							<div class="barra-skill">
+								<div class="progreso">
+									<span>90%</span>
+								</div>
+							</div>
+						</div>
+						<div class="skill">
+							<span>Scrum </span>
+							<div class="barra-skill">
+								<div class="progreso">
+									<span>94%</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="curriculum" class="curriculum">
+			<div class="contenido-seccion">
+				<h2>CV</h2>
+				<div class="fila">
+					<div class="col izquierda">
+						<h3>Educación Academica</h3>
+
+						<div class="item izq">
+							<h4>Desarrollador Full-Stack</h4>
+							<span class="casa">HERNY Bootcamp </span>
+							<span class="fecha">2022-2023</span>
+							
+							<div class="conectori">
+								<div class="circuloi"></div>
+							</div>
+						</div>
+
+						
+						<div class="item izq">
+							<h4>Reparacion de PC</h4>
+							<span class="casa">Instituto Rivadavia </span>
+							<span class="fecha">2015</span>
+							
+							<div class="conectori">
+								<div class="circuloi"></div>
+							</div>
+						</div>
+						<div class="item izq">
+							<h4>Diseño Gráfico y Edición de Video</h4>
+							<span class="casa"
+								>Instituto Superior de Design “C.E.P.E.C.” Diseño Integral</span
+							>
+							
+							<span class="fecha">Rosario</span>
+							
+							<div class="conectori">
+								<div class="circuloi"></div>
+							</div>
+						</div>
+						
+					</div>
+
+					<div class="col derecha">
+						<h3>Experiencia de trabajo</h3>
+						<div class="item der">
+							<h4>Full-Stack Developer</h4>
+							<span class="casa">TechBunny</span>
+							<span class="fecha">2022-2023</span>
+							<p>
+								Proyecto Final. Trabajé junto a 6 compañeros utilizando la metodología Scrum para crear una página web para un e-commerce de productos de tecnología. La página debía tener las siguientes funcionalidades: búsqueda, filtros combinados, ordenamientos, autenticación local y de terceros, pasarela de pagos, deploy, panel de administrador (CRUD), valoraciones, comentarios y notificaciones vía email. 
+                                Las tecnologías utilizadas fueron: JavaScript, React, Redux, CSS, React, Sass, Tailwind, NodeJS, Express, Google login, MercadoPago,Auth0, Bcrypt, distintas librerías y frameworks.
+							</p>
+							<div class="conectord">
+								<div class="circulod"></div>
+							</div>
+						</div>
+
+						<div class="item der">
+							<h4>Full-Stack Developer</h4>
+							<span class="casa">Henry Countries </span>
+							<span class="fecha">2022</span>
+							<p>
+								Proyecto Individual en el cual debía crear una página web, consumiendo una API con información sobre paises. Dicho proyecto debía contar con las funcionalidades de búsquedas, filtrados, ordenamientos y creación de actividades . Las tecnologías utilizadas fueron: JavaScript, React, Redux, CSS, NodeJS, Express, Sequelize y PostgreSQL.
+							</p>
+							
+						</div>
+
+						<div class="item der">
+							<h4>Full-Stack Developer</h4>
+							<span class="casa">Henry VideoGames</span>
+							<span class="fecha">2023</span>
+							<p>
+								Proyecto Individual en el cual debía crear una página web, consumiendo una API con información sobre videojuegos. Dicho proyecto debía contar con las funcionalidades de búsquedas, filtrados, ordenamientos y creación de actividades . Las tecnologías utilizadas fueron: JavaScript, React, Redux, CSS, NodeJS, Express, Sequelize y PostgreSQL.
+							</p>
+							
+						</div>
+
+
+						<div class="item der">
+							<h4>Teaching Assistant</h4>
+							<span class="casa">Henry Bootcamp</span>
+							<span class="fecha">2022</span>
+							<p>
+								Ayudante de bootcamp (TA) para alumnos de Desarrollo Full-Stack.
+                                 Tareas principales:
+                                 • Coordinar a un grupo de estudiantes para lograr la integración al grupo de estudio.
+                                 • Orientar a los estudiantes en los primeros pasos de la cursada.
+                                 • Asistir la resolución de ejercicios y promover la colaboración grupal (Pair Programming).
+                                 • Proponer ideas para la mejora de los procesos del Bootcamp.
+							</p>
+							
+						</div>
+						<!-- <div class="item der">
+							<h4>Front Developer</h4>
+							<span class="casa">Nombre de Compañía</span>
+							<span class="fecha">2005 - 2008</span>
+							<p>
+								Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis,
+								cumque repellat, tempora recusandae aliquam nemo esse natus
+								impedit, nostrum temporibus veritatis eaque soluta aperiam id
+								repudiandae fugiat deserunt! Explicabo, veritatis?
+							</p>
+							<div class="conectord">
+								<div class="circulod"></div>
+							</div>
+						</div> -->
+					</div>
+				</div>
+			</div>
+		</section>
+
+		
+		<section id="portfolio" class="portfolio">
+			<div class="contenido-seccion">
+				<h2>PORTFOLIO</h2>
+				<div class="galeria">
+					<div class="proyecto">
+						<a href="https://pi-videogamess-pied.vercel.app">
+							<img src="img/p1.png" alt="" />
+							<div class="overlay">
+								<h3>APP FULL STACK INDIVIDUAL</h3>
+								<p>JavaScript · Html · Css · Scrum · SQL · Sequelize.js · Express.js · PostgreSQL · JavaScript · React.js · Node.js · Redux.js</p>
+							</a>
+						</div>
+					</div>
+					<div class="proyecto">
+						<a href="https://pi-countries-nu-tan.vercel.app">
+							<img src="img/p2.png" alt="" />
+							<div class="overlay">
+								<h3>APP FULL STACK INDIVIDUAL</h3>
+								<p>JavaScript · Html · Css · Scrum · SQL · Sequelize.js · Express.js · PostgreSQL · JavaScript · React.js · Node.js · Redux.js</p>
+							</a>
+						</div>
+					</div>
+					<div class="proyecto">
+						<a href="https://pf-techbunny-lake.vercel.app/">
+							<img src="img/p3.png" alt="" />
+							<div class="overlay">
+								<h3>APP FULL STACK GRUPAL</h3>
+								<p>JavaScript, React, Redux, CSS, React, Sass, Tailwind, NodeJS, Express, Google login, MercadoPago,Auth0, Bcrypt, distintas librerías y frameworks.</p>
+							</a>
+						</div>
+					</div>
+					
+					</div>
+				
+					</div>
+					
+					
+		</section>
+
+		<!-- footer -->
+		<footer>
+			<a href="#inicio" class="arriba">
+				<i class="fa-solid fa-angles-up"></i>
+			</a>
+			<div class="redes">
+				<a href="https://www.linkedin.com/in/eze-gomez/"
+					><i class="fa-brands fa-linkedin-in"></i
+				></a>
+				<a href="https://github.com/EzequielGomez74"
+					><i class="fa-brands fa-github"></i
+				></a>
+				
+				
+			</div>
+		</footer>
+
+		<script src="script.js"></script>
+	</body>
+</html>
